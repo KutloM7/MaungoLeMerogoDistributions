@@ -1,0 +1,61 @@
+.container {
+ max-width: 800px;
+    margin: auto;
+    padding: 3px;
+}
+.navbar{
+display: flex;
+align-items: center;
+padding: 5px;
+
+
+}
+nav{
+flex: 1;
+text-align: right;
+max-width: 80%;
+}nav ul{
+display: inline-block;
+list-style-type: none;
+}
+nav ul li{
+display: inline-block;
+margin-right: 20px;
+max-width:80%;
+
+}
+a{
+text-decoration: none;
+color: #555;
+}
+body {
+background: beige;
+}
+.web3forms input[type="text"],
+.web3forms input[type="email"],
+.web3forms input[type="number"],
+.web3forms textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.web3forms button[type="submit"] {
+  background-color: #4CAF50;
+  color: whitw;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+
+@media screen and (max-width: 390px) {
+}
+body {
+font-size: 23px;
+width: 100px;
+margin: auto;
+}
+.row {
+flex-direction-column reverse;
+margin: 50px 0;
+}
+}
